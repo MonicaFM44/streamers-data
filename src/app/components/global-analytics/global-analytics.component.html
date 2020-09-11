@@ -1,0 +1,38 @@
+<div class="global">
+  <h1 class="title">Global Insights</h1>
+  
+  <div class="kpis-group">
+    <div class="kpi">
+      <div class="value">
+        {{ globalMinutesWatched | thousandSuffix: 2 }}
+      </div>
+      <label>Minutes watched</label>
+    </div>
+    <div class="kpi">
+      <div class="value">
+        {{ globalAirtimeMinutes | thousandSuffix: 2 }}
+      </div>
+      <label>Airtime minutes</label>
+    </div>
+    <div class="kpi">
+      <div class="value">
+        {{ globalAverageViewers | thousandSuffix: 2 }}
+      </div>
+      <label>Average viewers</label>
+    </div>
+  </div>
+
+  <h4>Want to go in more detail?</h4>
+
+  <div class="selector">
+    <label>Select your focus: </label>
+    <select>
+      <option value="Game">Game</option>
+      <option value="User">User</option>
+      <option value="Platform">Platform</option>
+    </select>
+  </div>
+    
+  <bar-chart class="chart"></bar-chart>
+</div>
+

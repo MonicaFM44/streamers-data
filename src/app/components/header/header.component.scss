@@ -1,0 +1,33 @@
+.header {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #151F2C;
+  color: white;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 15vh;
+  }
+
+  button {
+    height: 10vh;
+    width: 15vw;
+    padding: 1rem;
+
+    border: none;
+    background-color: #ff2f07;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+}

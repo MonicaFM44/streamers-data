@@ -1,0 +1,901 @@
+{
+   "from":"2020-08-03",
+   "to":"2020-08-09",
+   "granularity":"day",
+   "team_global_games":[
+      {
+         "minutes_watched":44556521,
+         "airtime_minutes":1974,
+         "name":"Fall Guys"
+      },
+      {
+         "minutes_watched":9916527,
+         "airtime_minutes":1190,
+         "name":"Dead by Daylight"
+      },
+      {
+         "minutes_watched":31941003,
+         "airtime_minutes":1125,
+         "name":"PUBG Mobile"
+      },
+      {
+         "minutes_watched":6195642,
+         "airtime_minutes":843,
+         "name":"Teamfight Tactics"
+      },
+      {
+         "minutes_watched":6697670,
+         "airtime_minutes":1477,
+         "name":"Valorant"
+      },
+      {
+         "minutes_watched":6167998,
+         "airtime_minutes":305,
+         "name":"Just Chatting"
+      },
+      {
+         "minutes_watched":1197153,
+         "airtime_minutes":102,
+         "name":"League of Legends"
+      },
+      {
+         "minutes_watched":54058085,
+         "airtime_minutes":1366,
+         "name":""
+      },
+      {
+         "minutes_watched":1448108,
+         "airtime_minutes":201,
+         "name":"Among Us"
+      },
+      {
+         "minutes_watched":26150198,
+         "airtime_minutes":105,
+         "name":"Call of Duty: Modern Warfare"
+      },
+      {
+         "minutes_watched":44688,
+         "airtime_minutes":2,
+         "name":"Pinturillo 2"
+      },
+      {
+         "minutes_watched":1453657,
+         "airtime_minutes":53,
+         "name":"Special Events"
+      },
+      {
+         "minutes_watched":1207494,
+         "airtime_minutes":58,
+         "name":"Until Dawn"
+      },
+      {
+         "minutes_watched":220272,
+         "airtime_minutes":10,
+         "name":"skribbl.io"
+      }
+   ],
+   "team_global_aggregates":{
+      "minutes_watched":191255016,
+      "airtime_minutes":8811,
+      "global_airtime_minutes":8811,
+      "average_viewers":21706.39,
+      "streamer_data":[
+         {
+            "platform":"facebook",
+            "peak_viewers":64532,
+            "airtime_minutes":1125,
+            "minutes_watched":31941003,
+            "user_id":"192641601367028"
+         },
+         {
+            "platform":"facebook",
+            "peak_viewers":11758,
+            "airtime_minutes":1317,
+            "minutes_watched":10576201,
+            "user_id":"213560362768157"
+         },
+         {
+            "platform":"twitch",
+            "peak_viewers":15267,
+            "airtime_minutes":2998,
+            "minutes_watched":15377129,
+            "user_id":"22253819"
+         },
+         {
+            "platform":"twitch",
+            "peak_viewers":45603,
+            "airtime_minutes":1900,
+            "minutes_watched":53152400,
+            "user_id":"83232866"
+         },
+         {
+            "platform":"ytg",
+            "peak_viewers":500811,
+            "airtime_minutes":1471,
+            "minutes_watched":80208283,
+            "user_id":"UCcJL2ld6kxy_nuV1u7PVQ0g"
+         }
+      ]
+   },
+   "team_granular_aggregates":[
+      {
+         "airtime_minutes":788,
+         "minutes_watched":6773314,
+         "streamer_data":[
+            {
+               "user_id":"22253819",
+               "username":"scarra",
+               "display_name":"Scarra",
+               "platform":"twitch",
+               "airtime_minutes":426,
+               "minutes_watched":1319328,
+               "average_viewers":3097.01,
+               "peak_viewers":6358,
+               "primary_game":"Valorant",
+               "primary_game_id":"77445",
+               "games":[
+                  {
+                     "id":"77445",
+                     "name":"Valorant",
+                     "airtime_minutes":426,
+                     "minutes_watched":1319328
+                  }
+               ]
+            },
+            {
+               "user_id":"83232866",
+               "username":"ibai",
+               "display_name":"ibai",
+               "platform":"twitch",
+               "airtime_minutes":162,
+               "minutes_watched":4071548,
+               "average_viewers":25133.01,
+               "peak_viewers":35542,
+               "primary_game":"Just Chatting",
+               "primary_game_id":"just chatting",
+               "games":[
+                  {
+                     "id":"just chatting",
+                     "name":"Just Chatting",
+                     "airtime_minutes":104,
+                     "minutes_watched":2864054
+                  },
+                  {
+                     "id":"39358",
+                     "name":"Until Dawn",
+                     "airtime_minutes":58,
+                     "minutes_watched":1207494
+                  }
+               ]
+            },
+            {
+               "user_id":"213560362768157",
+               "username":"AgustinUnaplay8",
+               "display_name":"Agustin Unaplay",
+               "platform":"facebook",
+               "airtime_minutes":200,
+               "minutes_watched":1382438,
+               "average_viewers":6912.19,
+               "peak_viewers":11241,
+               "primary_game":"Dead by Daylight",
+               "primary_game_id":"52693",
+               "games":[
+                  {
+                     "id":"52693",
+                     "name":"Dead by Daylight",
+                     "airtime_minutes":200,
+                     "minutes_watched":1382438
+                  }
+               ]
+            }
+         ],
+         "date":"2020-08-03"
+      },
+      {
+         "airtime_minutes":983,
+         "minutes_watched":14212679,
+         "streamer_data":[
+            {
+               "user_id":"22253819",
+               "username":"scarra",
+               "display_name":"Scarra",
+               "platform":"twitch",
+               "airtime_minutes":428,
+               "minutes_watched":1699804,
+               "average_viewers":3971.5,
+               "peak_viewers":6180,
+               "primary_game":"Valorant",
+               "primary_game_id":"77445",
+               "games":[
+                  {
+                     "id":"77445",
+                     "name":"Valorant",
+                     "airtime_minutes":428,
+                     "minutes_watched":1699804
+                  }
+               ]
+            },
+            {
+               "user_id":"192641601367028",
+               "username":"namblue",
+               "display_name":"Nam Blue",
+               "platform":"facebook",
+               "airtime_minutes":118,
+               "minutes_watched":4311014,
+               "average_viewers":36534.02,
+               "peak_viewers":64532,
+               "primary_game":"PUBG Mobile",
+               "primary_game_id":"67843",
+               "games":[
+                  {
+                     "id":"67843",
+                     "name":"PUBG Mobile",
+                     "airtime_minutes":118,
+                     "minutes_watched":4311014
+                  }
+               ]
+            },
+            {
+               "user_id":"213560362768157",
+               "username":"AgustinUnaplay8",
+               "display_name":"Agustin Unaplay",
+               "platform":"facebook",
+               "airtime_minutes":169,
+               "minutes_watched":1394666,
+               "average_viewers":8252.46,
+               "peak_viewers":11049,
+               "primary_game":"Dead by Daylight",
+               "primary_game_id":"52693",
+               "games":[
+                  {
+                     "id":"52693",
+                     "name":"Dead by Daylight",
+                     "airtime_minutes":169,
+                     "minutes_watched":1394666
+                  }
+               ]
+            },
+            {
+               "user_id":"83232866",
+               "username":"ibai",
+               "display_name":"ibai",
+               "platform":"twitch",
+               "airtime_minutes":268,
+               "minutes_watched":6807195,
+               "average_viewers":25399.98,
+               "peak_viewers":40446,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":187,
+                     "minutes_watched":4805956
+                  },
+                  {
+                     "id":"just chatting",
+                     "name":"Just Chatting",
+                     "airtime_minutes":81,
+                     "minutes_watched":2001239
+                  }
+               ]
+            }
+         ],
+         "date":"2020-08-04"
+      },
+      {
+         "airtime_minutes":1046,
+         "minutes_watched":20028190,
+         "streamer_data":[
+            {
+               "user_id":"83232866",
+               "username":"ibai",
+               "display_name":"ibai",
+               "platform":"twitch",
+               "airtime_minutes":241,
+               "minutes_watched":8324449,
+               "average_viewers":34541.28,
+               "peak_viewers":45603,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":241,
+                     "minutes_watched":8324449
+                  }
+               ]
+            },
+            {
+               "user_id":"192641601367028",
+               "username":"namblue",
+               "display_name":"Nam Blue",
+               "platform":"facebook",
+               "airtime_minutes":264,
+               "minutes_watched":7455251,
+               "average_viewers":28239.59,
+               "peak_viewers":61521,
+               "primary_game":"PUBG Mobile",
+               "primary_game_id":"67843",
+               "games":[
+                  {
+                     "id":"67843",
+                     "name":"PUBG Mobile",
+                     "airtime_minutes":264,
+                     "minutes_watched":7455251
+                  }
+               ]
+            },
+            {
+               "user_id":"213560362768157",
+               "username":"AgustinUnaplay8",
+               "display_name":"Agustin Unaplay",
+               "platform":"facebook",
+               "airtime_minutes":168,
+               "minutes_watched":1493241,
+               "average_viewers":8888.34,
+               "peak_viewers":11657,
+               "primary_game":"Dead by Daylight",
+               "primary_game_id":"52693",
+               "games":[
+                  {
+                     "id":"52693",
+                     "name":"Dead by Daylight",
+                     "airtime_minutes":168,
+                     "minutes_watched":1493241
+                  }
+               ]
+            },
+            {
+               "user_id":"22253819",
+               "username":"scarra",
+               "display_name":"Scarra",
+               "platform":"twitch",
+               "airtime_minutes":373,
+               "minutes_watched":2755249,
+               "average_viewers":7386.73,
+               "peak_viewers":10542,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":170,
+                     "minutes_watched":1392849
+                  },
+                  {
+                     "id":"77445",
+                     "name":"Valorant",
+                     "airtime_minutes":85,
+                     "minutes_watched":664864
+                  },
+                  {
+                     "id":"70938",
+                     "name":"Among Us",
+                     "airtime_minutes":60,
+                     "minutes_watched":535901
+                  },
+                  {
+                     "id":"513143",
+                     "name":"Teamfight Tactics",
+                     "airtime_minutes":58,
+                     "minutes_watched":161635
+                  }
+               ]
+            }
+         ],
+         "date":"2020-08-05"
+      },
+      {
+         "airtime_minutes":1162,
+         "minutes_watched":23806797,
+         "streamer_data":[
+            {
+               "platform":"ytg",
+               "user_id":"UCcJL2ld6kxy_nuV1u7PVQ0g",
+               "username":"DrDisRespect",
+               "display_name":"DrDisRespect",
+               "airtime_minutes":124,
+               "minutes_watched":7305219,
+               "average_viewers":58913.06,
+               "peak_viewers":127501,
+               "primary_game":"",
+               "primary_game_id":"",
+               "games":[
+                  {
+                     "id":"",
+                     "name":"",
+                     "airtime_minutes":124,
+                     "minutes_watched":7305219
+                  }
+               ],
+               "video_ids":[
+                  "K_gdGyoVd-E"
+               ]
+            },
+            {
+               "user_id":"22253819",
+               "username":"scarra",
+               "display_name":"Scarra",
+               "platform":"twitch",
+               "airtime_minutes":400,
+               "minutes_watched":2017648,
+               "average_viewers":5044.12,
+               "peak_viewers":7588,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":155,
+                     "minutes_watched":708612
+                  },
+                  {
+                     "id":"70938",
+                     "name":"Among Us",
+                     "airtime_minutes":141,
+                     "minutes_watched":912207
+                  },
+                  {
+                     "id":"513143",
+                     "name":"Teamfight Tactics",
+                     "airtime_minutes":104,
+                     "minutes_watched":396829
+                  }
+               ]
+            },
+            {
+               "user_id":"83232866",
+               "username":"ibai",
+               "display_name":"ibai",
+               "platform":"twitch",
+               "airtime_minutes":360,
+               "minutes_watched":9595091,
+               "average_viewers":26653.03,
+               "peak_viewers":38027,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":247,
+                     "minutes_watched":7011750
+                  },
+                  {
+                     "id":"special events",
+                     "name":"Special Events",
+                     "airtime_minutes":53,
+                     "minutes_watched":1453657
+                  },
+                  {
+                     "id":"24024",
+                     "name":"League of Legends",
+                     "airtime_minutes":39,
+                     "minutes_watched":698920
+                  },
+                  {
+                     "id":"59462",
+                     "name":"skribbl.io",
+                     "airtime_minutes":10,
+                     "minutes_watched":220272
+                  },
+                  {
+                     "id":"just chatting",
+                     "name":"Just Chatting",
+                     "airtime_minutes":9,
+                     "minutes_watched":165804
+                  },
+                  {
+                     "id":"59079",
+                     "name":"Pinturillo 2",
+                     "airtime_minutes":2,
+                     "minutes_watched":44688
+                  }
+               ]
+            },
+            {
+               "user_id":"192641601367028",
+               "username":"namblue",
+               "display_name":"Nam Blue",
+               "platform":"facebook",
+               "airtime_minutes":106,
+               "minutes_watched":3371046,
+               "average_viewers":31802.32,
+               "peak_viewers":50750,
+               "primary_game":"PUBG Mobile",
+               "primary_game_id":"67843",
+               "games":[
+                  {
+                     "id":"67843",
+                     "name":"PUBG Mobile",
+                     "airtime_minutes":106,
+                     "minutes_watched":3371046
+                  }
+               ]
+            },
+            {
+               "user_id":"213560362768157",
+               "username":"AgustinUnaplay8",
+               "display_name":"Agustin Unaplay",
+               "platform":"facebook",
+               "airtime_minutes":172,
+               "minutes_watched":1517793,
+               "average_viewers":8824.38,
+               "peak_viewers":11758,
+               "primary_game":"Dead by Daylight",
+               "primary_game_id":"52693",
+               "games":[
+                  {
+                     "id":"52693",
+                     "name":"Dead by Daylight",
+                     "airtime_minutes":172,
+                     "minutes_watched":1517793
+                  }
+               ]
+            }
+         ],
+         "date":"2020-08-06"
+      },
+      {
+         "airtime_minutes":2213,
+         "minutes_watched":83853383,
+         "streamer_data":[
+            {
+               "user_id":"192641601367028",
+               "username":"namblue",
+               "display_name":"Nam Blue",
+               "platform":"facebook",
+               "airtime_minutes":173,
+               "minutes_watched":4440579,
+               "average_viewers":25668.09,
+               "peak_viewers":49711,
+               "primary_game":"PUBG Mobile",
+               "primary_game_id":"67843",
+               "games":[
+                  {
+                     "id":"67843",
+                     "name":"PUBG Mobile",
+                     "airtime_minutes":173,
+                     "minutes_watched":4440579
+                  }
+               ]
+            },
+            {
+               "user_id":"213560362768157",
+               "username":"AgustinUnaplay8",
+               "display_name":"Agustin Unaplay",
+               "platform":"facebook",
+               "airtime_minutes":170,
+               "minutes_watched":1528740,
+               "average_viewers":8992.59,
+               "peak_viewers":10965,
+               "primary_game":"Dead by Daylight",
+               "primary_game_id":"52693",
+               "games":[
+                  {
+                     "id":"52693",
+                     "name":"Dead by Daylight",
+                     "airtime_minutes":170,
+                     "minutes_watched":1528740
+                  }
+               ]
+            },
+            {
+               "user_id":"22253819",
+               "username":"scarra",
+               "display_name":"Scarra",
+               "platform":"twitch",
+               "airtime_minutes":422,
+               "minutes_watched":2094601,
+               "average_viewers":4963.51,
+               "peak_viewers":8865,
+               "primary_game":"Valorant",
+               "primary_game_id":"77445",
+               "games":[
+                  {
+                     "id":"77445",
+                     "name":"Valorant",
+                     "airtime_minutes":198,
+                     "minutes_watched":649442
+                  },
+                  {
+                     "id":"513143",
+                     "name":"Teamfight Tactics",
+                     "airtime_minutes":148,
+                     "minutes_watched":834288
+                  },
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":76,
+                     "minutes_watched":610871
+                  }
+               ]
+            },
+            {
+               "platform":"ytg",
+               "user_id":"UCcJL2ld6kxy_nuV1u7PVQ0g",
+               "username":"DrDisRespect",
+               "display_name":"DrDisRespect",
+               "airtime_minutes":1347,
+               "minutes_watched":72903064,
+               "average_viewers":54122.54,
+               "peak_viewers":500811,
+               "primary_game":"Call of Duty: Modern Warfare",
+               "primary_game_id":"",
+               "games":[
+                  {
+                     "id":"",
+                     "name":"",
+                     "airtime_minutes":1242,
+                     "minutes_watched":46752866
+                  },
+                  {
+                     "id":"73517",
+                     "name":"Call of Duty: Modern Warfare",
+                     "airtime_minutes":105,
+                     "minutes_watched":26150198
+                  }
+               ],
+               "video_ids":[
+                  "K_gdGyoVd-E"
+               ]
+            },
+            {
+               "user_id":"83232866",
+               "username":"ibai",
+               "display_name":"ibai",
+               "platform":"twitch",
+               "airtime_minutes":101,
+               "minutes_watched":2886399,
+               "average_viewers":28578.21,
+               "peak_viewers":34937,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":101,
+                     "minutes_watched":2886399
+                  }
+               ]
+            }
+         ],
+         "date":"2020-08-07"
+      },
+      {
+         "airtime_minutes":1195,
+         "minutes_watched":15508668,
+         "streamer_data":[
+            {
+               "user_id":"22253819",
+               "username":"scarra",
+               "display_name":"Scarra",
+               "platform":"twitch",
+               "airtime_minutes":629,
+               "minutes_watched":4098700,
+               "average_viewers":6516.22,
+               "peak_viewers":15267,
+               "primary_game":"Teamfight Tactics",
+               "primary_game_id":"513143",
+               "games":[
+                  {
+                     "id":"513143",
+                     "name":"Teamfight Tactics",
+                     "airtime_minutes":379,
+                     "minutes_watched":1873581
+                  },
+                  {
+                     "id":"77445",
+                     "name":"Valorant",
+                     "airtime_minutes":202,
+                     "minutes_watched":1798479
+                  },
+                  {
+                     "id":"24024",
+                     "name":"League of Legends",
+                     "airtime_minutes":48,
+                     "minutes_watched":426640
+                  }
+               ]
+            },
+            {
+               "user_id":"192641601367028",
+               "username":"namblue",
+               "display_name":"Nam Blue",
+               "platform":"facebook",
+               "airtime_minutes":281,
+               "minutes_watched":6493324,
+               "average_viewers":23107.91,
+               "peak_viewers":40470,
+               "primary_game":"PUBG Mobile",
+               "primary_game_id":"67843",
+               "games":[
+                  {
+                     "id":"67843",
+                     "name":"PUBG Mobile",
+                     "airtime_minutes":281,
+                     "minutes_watched":6493324
+                  }
+               ]
+            },
+            {
+               "user_id":"213560362768157",
+               "username":"AgustinUnaplay8",
+               "display_name":"Agustin Unaplay",
+               "platform":"facebook",
+               "airtime_minutes":149,
+               "minutes_watched":1251731,
+               "average_viewers":8400.88,
+               "peak_viewers":11373,
+               "primary_game":"Dead by Daylight",
+               "primary_game_id":"52693",
+               "games":[
+                  {
+                     "id":"52693",
+                     "name":"Dead by Daylight",
+                     "airtime_minutes":149,
+                     "minutes_watched":1251731
+                  }
+               ]
+            },
+            {
+               "user_id":"83232866",
+               "username":"ibai",
+               "display_name":"ibai",
+               "platform":"twitch",
+               "airtime_minutes":136,
+               "minutes_watched":3664913,
+               "average_viewers":26947.89,
+               "peak_viewers":37321,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":136,
+                     "minutes_watched":3664913
+                  }
+               ]
+            }
+         ],
+         "date":"2020-08-08"
+      },
+      {
+         "airtime_minutes":1424,
+         "minutes_watched":27071985,
+         "streamer_data":[
+            {
+               "user_id":"22253819",
+               "username":"scarra",
+               "display_name":"Scarra",
+               "platform":"twitch",
+               "airtime_minutes":320,
+               "minutes_watched":1391799,
+               "average_viewers":4349.37,
+               "peak_viewers":6858,
+               "primary_game":"Valorant",
+               "primary_game_id":"77445",
+               "games":[
+                  {
+                     "id":"77445",
+                     "name":"Valorant",
+                     "airtime_minutes":138,
+                     "minutes_watched":565753
+                  },
+                  {
+                     "id":"513143",
+                     "name":"Teamfight Tactics",
+                     "airtime_minutes":63,
+                     "minutes_watched":359009
+                  },
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":56,
+                     "minutes_watched":239181
+                  },
+                  {
+                     "id":"just chatting",
+                     "name":"Just Chatting",
+                     "airtime_minutes":48,
+                     "minutes_watched":156263
+                  },
+                  {
+                     "id":"24024",
+                     "name":"League of Legends",
+                     "airtime_minutes":15,
+                     "minutes_watched":71593
+                  }
+               ]
+            },
+            {
+               "user_id":"83232866",
+               "username":"ibai",
+               "display_name":"ibai",
+               "platform":"twitch",
+               "airtime_minutes":632,
+               "minutes_watched":17802805,
+               "average_viewers":28169,
+               "peak_viewers":40313,
+               "primary_game":"Fall Guys",
+               "primary_game_id":"73776",
+               "games":[
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":478,
+                     "minutes_watched":14251867
+                  },
+                  {
+                     "id":"513143",
+                     "name":"Teamfight Tactics",
+                     "airtime_minutes":91,
+                     "minutes_watched":2570300
+                  },
+                  {
+                     "id":"just chatting",
+                     "name":"Just Chatting",
+                     "airtime_minutes":63,
+                     "minutes_watched":980638
+                  }
+               ]
+            },
+            {
+               "user_id":"192641601367028",
+               "username":"namblue",
+               "display_name":"Nam Blue",
+               "platform":"facebook",
+               "airtime_minutes":183,
+               "minutes_watched":5869789,
+               "average_viewers":32075.35,
+               "peak_viewers":59147,
+               "primary_game":"PUBG Mobile",
+               "primary_game_id":"67843",
+               "games":[
+                  {
+                     "id":"67843",
+                     "name":"PUBG Mobile",
+                     "airtime_minutes":183,
+                     "minutes_watched":5869789
+                  }
+               ]
+            },
+            {
+               "user_id":"213560362768157",
+               "username":"AgustinUnaplay8",
+               "display_name":"Agustin Unaplay",
+               "platform":"facebook",
+               "airtime_minutes":289,
+               "minutes_watched":2007592,
+               "average_viewers":6946.69,
+               "peak_viewers":11464,
+               "primary_game":"Dead by Daylight",
+               "primary_game_id":"52693",
+               "games":[
+                  {
+                     "id":"52693",
+                     "name":"Dead by Daylight",
+                     "airtime_minutes":162,
+                     "minutes_watched":1347918
+                  },
+                  {
+                     "id":"73776",
+                     "name":"Fall Guys",
+                     "airtime_minutes":127,
+                     "minutes_watched":659674
+                  }
+               ]
+            }
+         ],
+         "date":"2020-08-09"
+      }
+   ]
+}
