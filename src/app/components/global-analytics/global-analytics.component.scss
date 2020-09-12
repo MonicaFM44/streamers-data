@@ -34,9 +34,12 @@ h4 {
   font-size: 1.2rem;
 }
 
-.chart {
-  width: 100%;
+.chart-group {
+  display: flex;
 
-  margin: 1rem;
-  // background-color: #E9E4E3;
+  .chart {
+    width: 100%;
+
+    margin: 1rem;
+  }
 }

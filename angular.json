@@ -31,7 +31,8 @@
               "core-js",
               "raf",
               "xlsx",
-              "@babel/runtime"
+              "@babel/runtime",
+              "lodash"
             ]
           },
           "configurations": {

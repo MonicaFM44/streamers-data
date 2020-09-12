@@ -1,8 +1,27 @@
 <div class="daily">
   <h1 class="title">Day by Day Insights</h1>
 
-  <div class="chart">
-    Bar chart with minutes_watched, airtime_minutes
+  <div class="chart-group">
+    <div class="chart">
+      <p>Total Minutes watched</p>
+      <bar-chart [chartId]="'chart3'" 
+                [isHorizontal]="false"
+                [isSorted]="false"
+                [data]="detailData" 
+                [category]="category" 
+                [value]="'minutes_watched'">
+      </bar-chart>
+    </div>
+    <div class="chart">
+      <p>Total Airtime minutes</p>
+      <bar-chart [chartId]="'chart4'"
+                [isHorizontal]="false" 
+                [isSorted]="false"
+                [data]="detailData" 
+                [category]="category" 
+                [value]="'airtime_minutes'">
+      </bar-chart>
+    </div>
   </div>
 
   <p>Now, try some filtering!</p>

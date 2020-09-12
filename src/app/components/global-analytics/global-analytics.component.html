@@ -26,13 +26,39 @@
 
   <div class="selector">
     <label>Select your focus: </label>
-    <select>
-      <option value="Game">Game</option>
-      <option value="User">User</option>
-      <option value="Platform">Platform</option>
+    <select (change)="selectOption($event.target.value)">
+      <option value="game">Game</option>
+      <option value="user">User</option>
+      <option value="platform">Platform</option>
     </select>
   </div>
-    
-  <bar-chart class="chart"></bar-chart>
+
+  <div class="chart-group">
+    <ng-container #outlet></ng-container>
+  </div>
 </div>
+
+
+<ng-template #content>
+  <div class="chart">
+    <p>Total Minutes watched</p>
+    <bar-chart [chartId]="'chart1'"
+              [isHorizontal]="true"
+              [isSorted]="true" 
+              [data]="detailData" 
+              [category]="category"
+              [value]="'minutes_watched'">
+    </bar-chart>
+  </div>
+  <div class="chart">
+    <p>Total Airtime minutes</p>
+    <bar-chart [chartId]="'chart2'"
+              [isHorizontal]="true"
+              [isSorted]="true"  
+              [data]="detailData"
+              [category]="category" 
+              [value]="'airtime_minutes'" >
+    </bar-chart>
+  </div>
+</ng-template>
 
