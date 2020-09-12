@@ -1,0 +1,19 @@
+<div class="viwership">
+  <h1 class="title">Viewership Insights</h1>
+  <p>Minute to Minute</p>
+  <bar-chart [chartId]="'chart5'"
+              [isHorizontal]="false"
+              [isSorted]="false" 
+              [data]="detailData1" 
+              [category]="'viewership_timestamps'"
+              [value]="'viewership_viewers'">
+    </bar-chart>
+    <p>Minute 31 every second</p>
+    <bar-chart [chartId]="'chart6'"
+              [isHorizontal]="false"
+              [isSorted]="false" 
+              [data]="detailData2" 
+              [category]="'viewership_timestamps'"
+              [value]="'viewership_viewers'">
+    </bar-chart>
+</div>

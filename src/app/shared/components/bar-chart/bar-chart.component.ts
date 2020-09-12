@@ -82,6 +82,16 @@ export class BarChartComponent implements AfterViewInit, OnDestroy {
         labelBullet.label.text = "{values.valueX.workingValue.formatNumber('#.0as')}" :
         labelBullet.label.text = "{values.valueY.workingValue.formatNumber('#.0as')}";
 
+      chart.colors.list = [
+        am4core.color("#FF8A65"),
+        am4core.color("#FF7043"),
+        am4core.color("#FF5722"),
+        am4core.color("#F4511E"),
+        am4core.color("#E64A19"),
+        am4core.color("#D84315"),
+        am4core.color("#BF360C")
+      ];
+
       // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
       series.columns.template.adapter.add("fill", function(fill, target){
         return chart.colors.getIndex(target.dataItem.index);

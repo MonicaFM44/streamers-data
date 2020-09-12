@@ -4,10 +4,45 @@
   height: 10vh;
   
   background-color: white;
-  
-  color: #151F2C;
-  font-weight: 600;
-  text-transform: uppercase;
 
   padding-left: 5vh;
+
+  .title {
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+
+    color: #151F2C;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .navigation-links {
+    height: 100%;
+    width: 70%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      height: auto;
+      
+      display: flex;
+      align-items: center;
+
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      color: #ff2f07;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: #ff2f07;
+      color: white;
+    }
+  }
 }

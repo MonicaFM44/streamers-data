@@ -36,7 +36,6 @@ export class GlobalAnalyticsComponent implements OnInit, AfterContentInit {
   }
 
   selectOption(value: string) {
-    console.log('inside select', value);
     if(value === 'game') {
       this.detailData = DATA.team_global_games.slice(0, 5);
       this.category = 'name';

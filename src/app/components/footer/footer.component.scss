@@ -1,0 +1,17 @@
+.content {
+  height: 20vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #E9E4E3;
+
+  a {
+    border-radius: 3px;
+    padding: .5vh .5vw .5vh .5vw;
+    background-color: #151F2C;
+    color: white;
+  }
+}

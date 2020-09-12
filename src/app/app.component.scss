@@ -1,5 +1,6 @@
 .toolbar {
-  position: absolute;
+  position: fixed;
+  z-index: 99999;
   top: 0;
   left: 0;
   right: 0;
@@ -16,9 +17,16 @@
   }
 
   .analytics {
-    margin-top: 7vh;
     margin-left: 10vw;
     margin-right: 10vw;
+
+    .section {
+      margin-top: 10vh; // toolbar hides title?
+    }
+  }
+
+  .footer {
+    margin-top: 10vh;
   }
 
 }
