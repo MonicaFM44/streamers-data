@@ -9,4 +9,8 @@ export class KpiComponent {
   @Input() title: string;
   @Input() value: number;
 
+  isNumber(val: any): boolean { 
+    return typeof val === 'number'; 
+  }
+
 }

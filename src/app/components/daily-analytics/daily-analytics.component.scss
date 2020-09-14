@@ -4,7 +4,20 @@
   text-transform: uppercase;
 }
 
+p {
+  font-weight: bold;
+}
+
 .kpis-group {
   display: flex;
   justify-content: center;
+}
+
+.selectors-group {
+  display: flex;
+  margin-top: 2vh;
+
+  .selector {
+    padding-right: 1rem;
+  }
 }

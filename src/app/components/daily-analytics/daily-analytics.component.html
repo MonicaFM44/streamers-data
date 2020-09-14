@@ -24,23 +24,27 @@
     </div>
   </div>
 
-  <p>Now, try some filtering!</p>
+  <div>Now, try some filtering!</div>
 
-  <div class="selector">
-    <label>Select a day: </label>
-    <select (change)="selectDay($event.target.value)">
-      <option *ngFor="let date of dates" value="{{ date }}">{{ date }}</option>
-    </select>
+  <div class="selectors-group">
+    <div class="selector">
+      <label>Select a day: </label>
+      <select (change)="selectDay($event.target.value)">
+        <option *ngFor="let date of dates" value="{{ date }}">{{ date }}</option>
+      </select>
+    </div>
+
+    <div class="selector">
+      <label>Select a user: </label>
+      <select (change)="selectUser($event.target.value)">
+        <option *ngFor="let user of users" value="{{ user }}">{{ user }}</option>
+      </select>
+    </div>
   </div>
 
-  <div class="selector">
-    <label>Select a user: </label>
-    <select (change)="selectUser($event.target.value)">
-      <option *ngFor="let user of users" value="{{ user }}">{{ user }}</option>
-    </select>
+  <div class="kpis-group">
+    <kpi [title]="'Primary game'" [value]="primaryGame"></kpi>
   </div>
-
-  <p>Primary game: {{ primaryGame }}</p>
   <div class="kpis-group">
     <kpi [title]="'Minutes watched'" [value]="dailyMinutesWatched"></kpi>
     <kpi [title]="'Airtime minutes'" [value]="dailyAirtimeMinutes"></kpi>

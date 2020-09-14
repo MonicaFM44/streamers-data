@@ -1,6 +1,7 @@
 <div class="kpi">
   <div class="value">
-    {{ value | thousandSuffix: 2 }}
+    <div *ngIf="isNumber(value)">{{ value | thousandSuffix: 2 }}</div>
+    <div *ngIf="!isNumber(value)">{{ value }}</div>
   </div>
   <label>{{ title }}</label>
 </div>
