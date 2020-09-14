@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 /**
  * This pipe transforms large numbers (e.g. 2000000) into a shorter form (e.g. 2M)
- * @param input the number to trasnform
+ * @param input the number to transform
  * @param args you can add the number of decimals wanted (e.g. 2 decimals = 2.22M)
  * @returns returns the same input if is not a number or if the input is less than 1000
  * or return the shorter version of the input

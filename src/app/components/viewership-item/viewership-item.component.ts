@@ -15,28 +15,27 @@ export class ViewershipItemComponent implements OnInit {
   category: string;
   value: string;
 
-
-  constructor() { }
-
   ngOnInit(): void {
-    // console.log('data item', this.data);
-    // 12:00:00 - minutes 36 - 28
-    // every minute
+    // Data goes for some interval of minutes from 12:00:00 (Jan 19 1970?)
+
+    // Get a new minute value
     let lastMinute = new Date(this.data[0][0]).getMinutes();
-    // console.log('first minute', lastMinute);
+    // Total viewers for that minute
     let totalViewers = 0;
+    // Total timestamps by second for that minute
     let numberTimestamps = 0;
+
     this.data.map((value) => {
         const d = new Date (value[0]);
+        console.log('date', d);
         const min = d.getMinutes();
-        // console.log('current minute', min);
         
+        // Same minute? Accumulate values to calculate the average
         if(lastMinute === min) {
-          // console.log('same minute, acumulate');
           totalViewers += value[1];
           ++numberTimestamps;
+        // New minute value? Push the data for that minute and the average of viewers
         } else {
-          // console.log('different minute, push');
           this.detailData.push({
             viewership_timestamps: lastMinute,
             viewership_viewers: (totalViewers/numberTimestamps) * 1000
@@ -47,13 +46,11 @@ export class ViewershipItemComponent implements OnInit {
         }
     });
 
-    // for last value
+    // Push for last value
     this.detailData.push({
       viewership_timestamps: lastMinute,
       viewership_viewers: (totalViewers/numberTimestamps) * 1000
     });
-
-    // console.log('detail data', this.detailData);
   }
 
 }

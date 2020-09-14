@@ -8,5 +8,4 @@ import * as DATA from '../../../assets/data/viewership.json';
 })
 export class ViewershipComponent {
   DATA: any = (DATA as any).default;
-
 }

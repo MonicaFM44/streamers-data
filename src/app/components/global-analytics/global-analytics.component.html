@@ -18,6 +18,7 @@
     </select>
   </div>
 
+  <!-- Work around, charts don't update the data with Angular lifecycles? -->
   <div class="chart-group">
     <ng-container #outlet></ng-container>
   </div>
@@ -27,7 +28,7 @@
 <ng-template #content>
   <div class="chart">
     <p>Total Minutes watched</p>
-    <bar-chart [chartId]="'chart1'"
+    <bar-chart [chartId]="'global1'"
               [isHorizontal]="true"
               [isSorted]="true" 
               [data]="detailData" 
@@ -37,7 +38,7 @@
   </div>
   <div class="chart">
     <p>Total Airtime minutes</p>
-    <bar-chart [chartId]="'chart2'"
+    <bar-chart [chartId]="'global2'"
               [isHorizontal]="true"
               [isSorted]="true"  
               [data]="detailData"

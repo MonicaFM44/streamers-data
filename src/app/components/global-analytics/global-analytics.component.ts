@@ -19,9 +19,7 @@ export class GlobalAnalyticsComponent implements OnInit, AfterContentInit {
   category: string;
   value: string;
 
-  DATA = DATA;
-
-  constructor() { }
+  DATA: any = DATA;
 
   ngAfterContentInit(): void {
     this.outletRef.createEmbeddedView(this.contentRef);
@@ -36,7 +34,7 @@ export class GlobalAnalyticsComponent implements OnInit, AfterContentInit {
   }
 
   selectOption(value: string) {
-    if(value === 'game') {
+    if (value === 'game') {
       this.detailData = DATA.team_global_games.slice(0, 5);
       this.category = 'name';
     } else if (value === 'user') {
@@ -44,6 +42,7 @@ export class GlobalAnalyticsComponent implements OnInit, AfterContentInit {
       this.detailData = DATA.team_global_aggregates.streamer_data;
     } else {
       this.category = 'platform';
+      // Group values by platform
       this.detailData = 
       _(DATA.team_global_aggregates.streamer_data)
       .groupBy(x => x.platform)
@@ -55,10 +54,12 @@ export class GlobalAnalyticsComponent implements OnInit, AfterContentInit {
         }))
       .value();
     }
+
     this.rerender();
   }
 
 
+  // Force to re-render charts when updating data to show
   private rerender() {
     this.outletRef.clear();
     this.outletRef.createEmbeddedView(this.contentRef);

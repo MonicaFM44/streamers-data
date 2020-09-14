@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import * as DATA from '../../../assets/data/aggregated_stats.json';
 
 @Component({
@@ -6,7 +6,7 @@ import * as DATA from '../../../assets/data/aggregated_stats.json';
   templateUrl: './daily-analytics.component.html',
   styleUrls: ['./daily-analytics.component.scss']
 })
-export class DailyAnalyticsComponent implements OnInit {
+export class DailyAnalyticsComponent {
   detailData: any;
   category: string;
   value: string;
@@ -21,9 +21,7 @@ export class DailyAnalyticsComponent implements OnInit {
   users: string[];
   data: any;
 
-  DATA = DATA;
-
-  constructor() { }
+  DATA: any = DATA;
 
   ngOnInit(): void {
     this.detailData = DATA.team_granular_aggregates;

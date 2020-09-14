@@ -10,9 +10,7 @@ export class HeaderComponent implements OnInit {
   dateFrom: string;
   dateTo: string;
 
-  DATA = DATA; // type ?
-
-  constructor() { }
+  DATA: any = DATA;
 
   ngOnInit(): void {
     this.dateFrom = DATA.from;
