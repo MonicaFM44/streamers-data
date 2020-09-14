@@ -1,27 +1,45 @@
-# StreamersData
+# Streamers Data
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+This project is the first part of the technical test for Stream Hatchet. 
 
-## Development server
+It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+
+## Parts of the web
+
+In the following sections I'll explain the design of the web and its different parts and content. 
+
+### Navbar
+
+In the top of the page, there is always present a navbar, in which we have some buttons that redirects to the corresponding sections stated bellow.
+
+### Header
+
+A presentation header that contains a button that goes to the first section of the web.
+
+### Global Insights
+
+In this section, we can find the analysis of the general global data provided in the file `aggregated_stats.json`, more specifically the `team_global_aggregates` subsection.
+
+The first components shows the general KPIs with Minutes Watched, Airtime Minutes and Average viewers for the data collected between the dates provided.
+
+Bellow the KPIs, we have a selector to determine if we want to show the Minutes Watched and the Aritime minutes group by: 
+- Game: on the `team_global_games` of `aggregated_stats.json`. 
+- User: inside `team_global_aggregates/streamer_data`.
+- Platform: same section as users, but this time, as there are platforms with multiple data, using a group by.
+
+### Day By Day Insights
+
+In this section we have the global data but divided by day of the date interval. This data is also provided by the file `aggregated_stats.json`, in the subsection `team_granular_aggregates`.
+
+Also, it has some filtering selectors to show the data inside the `streamer_data` subsection.
+
+### Viewership Insights
+
+The last section shows the data inside the file `viewership.json`, which contains minute-to-minute/second-to-second viewers of a streaming.
+For each user provided int the data, the charts show the average viewers inside each minute of the streaming.
+
+## How to run it?
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> It is necessary to have instaled the last version of Node.js.
