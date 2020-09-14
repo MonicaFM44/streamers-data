@@ -9,8 +9,10 @@ import {
   GlobalAnalyticsComponent, 
   DailyAnalyticsComponent, 
   FooterComponent, 
-  ViewershipComponent } from './components';
-import { ThousandSuffixPipe, BarChartComponent } from './shared';
+  ViewershipComponent,
+  ViewershipItemComponent 
+} from './components';
+import { ThousandSuffixPipe, BarChartComponent, KpiComponent } from './shared';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { ThousandSuffixPipe, BarChartComponent } from './shared';
     ThousandSuffixPipe,
     FooterComponent,
     ViewershipComponent,
+    ViewershipItemComponent,
+    KpiComponent,
   ],
   imports: [
     BrowserModule,

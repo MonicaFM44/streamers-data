@@ -48,6 +48,7 @@ export class BarChartComponent implements AfterViewInit, OnDestroy {
       } else {
         categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
         categoryAxis.dataFields.category = this.category;
+        categoryAxis.renderer.fontSize = 10;
       }
       categoryAxis.renderer.grid.template.location = 0;
       categoryAxis.renderer.minGridDistance = 1;
@@ -64,32 +65,43 @@ export class BarChartComponent implements AfterViewInit, OnDestroy {
       if(this.isHorizontal) {
         series.dataFields.categoryY = this.category;
         series.dataFields.valueX = this.value;
-        series.tooltipText = "{valueX.value}";
       } else {
         series.dataFields.categoryX = this.category;
         series.dataFields.valueY = this.value;
-        series.tooltipText = "{valueY.value}";
       }
       series.columns.template.strokeOpacity = 0;
       series.columns.template.column.cornerRadiusBottomRight = 5;
       series.columns.template.column.cornerRadiusTopRight = 5;
 
       let labelBullet = series.bullets.push(new am4charts.LabelBullet())
-      labelBullet.label.horizontalCenter = "left";
-      labelBullet.label.dx = 10;
-      labelBullet.locationX = 1;
-      (this.isHorizontal) ?
-        labelBullet.label.text = "{values.valueX.workingValue.formatNumber('#.0as')}" :
+      if (this.isHorizontal)  {
+        labelBullet.label.dx = 10;
+        labelBullet.locationX = 1;
+        labelBullet.label.horizontalCenter = "left";
+        labelBullet.label.text = "{values.valueX.workingValue.formatNumber('#.0as')}";
+      } else {
+        labelBullet.locationY = 0;
+        labelBullet.label.dy = -10;
         labelBullet.label.text = "{values.valueY.workingValue.formatNumber('#.0as')}";
+      }
+        
 
       chart.colors.list = [
+        am4core.color("#CD5C5C"),
+        
+        am4core.color("#F08080"),
+        am4core.color("#FA8072"),
+        
         am4core.color("#FF8A65"),
         am4core.color("#FF7043"),
         am4core.color("#FF5722"),
         am4core.color("#F4511E"),
         am4core.color("#E64A19"),
-        am4core.color("#D84315"),
-        am4core.color("#BF360C")
+        // am4core.color("#D84315"),
+        // am4core.color("#BF360C")
+        
+        am4core.color("#E9967A"),
+        am4core.color("#FFA07A"),
       ];
 
       // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set

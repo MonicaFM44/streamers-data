@@ -1,0 +1,11 @@
+<div class="viewership">
+  <p>Average viewers Minute to Minute</p>
+  <p>User {{ user }} - Platform {{ platform }}</p>
+  <bar-chart [chartId]="chartId"
+              [isHorizontal]="false"
+              [isSorted]="false" 
+              [data]="detailData" 
+              [category]="'viewership_timestamps'"
+              [value]="'viewership_viewers'">
+  </bar-chart>
+</div>

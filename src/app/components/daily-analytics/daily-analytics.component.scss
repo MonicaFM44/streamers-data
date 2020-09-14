@@ -4,11 +4,16 @@
   text-transform: uppercase;
 }
 
-.chart-group {
+.kpis-group {
   display: flex;
-
-  .chart {
-    width: 100%;
-    margin: 1rem;
-  }
+  justify-content: center;
 }
+
+// .chart-group {
+//   display: flex;
+
+//   .chart {
+//     width: 100%;
+//     margin: 1rem;
+//   }
+// }
