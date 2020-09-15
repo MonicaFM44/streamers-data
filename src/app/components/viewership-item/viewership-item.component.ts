@@ -38,7 +38,7 @@ export class ViewershipItemComponent implements OnInit {
         } else {
           this.detailData.push({
             viewership_timestamps: lastMinute,
-            viewership_viewers: (totalViewers/numberTimestamps) * 1000
+            viewership_viewers: (totalViewers/numberTimestamps)
           });
           lastMinute = min;
           totalViewers = 0;
@@ -49,7 +49,7 @@ export class ViewershipItemComponent implements OnInit {
     // Push for last value
     this.detailData.push({
       viewership_timestamps: lastMinute,
-      viewership_viewers: (totalViewers/numberTimestamps) * 1000
+      viewership_viewers: (totalViewers/numberTimestamps)
     });
   }
 
