@@ -1,9 +1,15 @@
 <div class="viwership">
   <h1 class="title">Viewership Insights</h1>
-  <div *ngFor="let data of DATA; let i = index">
-    <viewership-item [data]="data.viewership" 
-                      [user]="data.user_id" 
-                      [platform]="data.platform" 
+  <div class="selector">
+    <label>Select a user: </label>
+    <select (change)="selectUser($event.target.value)">
+      <option *ngFor="let user of users" value="{{ user }}">{{ user }}</option>
+    </select>
+  </div>
+  
+  <div *ngFor="let data of dataToShow; let i = index">
+    <p><b>Date:</b> {{ data.day }}</p>
+    <viewership-item [data]="data.views" 
                       [chartId]="'viewers' + i">
     </viewership-item>
   </div>

@@ -1,12 +1,8 @@
 <div class="viewership">
-  <p><b>User:</b> {{ user }}</p>
-  <p><b>Platform:</b> {{ platform }}</p>
-  <p class="title">Average viewers Minute to Minute</p>
-  <bar-chart [chartId]="chartId"
-              [isHorizontal]="false"
-              [isSorted]="false" 
-              [data]="detailData" 
-              [category]="'viewership_timestamps'"
-              [value]="'viewership_viewers'">
-  </bar-chart>
+  <p class="title">Viewers Minute to Minute</p>
+  <line-chart [chartId]="chartId"
+              [data]="data" 
+              [category]="'hour'"
+              [value]="'viewers'">
+  </line-chart>
 </div>

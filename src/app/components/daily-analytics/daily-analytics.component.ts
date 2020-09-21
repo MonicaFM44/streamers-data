@@ -39,7 +39,7 @@ export class DailyAnalyticsComponent {
 
   selectUser(user: string) {
     const res = this.data.streamer_data.find(val => val.display_name === user);
-    console.log(res);
+
     this.dailyMinutesWatched = res.minutes_watched;
     this.dailyAirtimeMinutes = res.airtime_minutes;
     this.dailyAverageViewers = res.average_viewers;
